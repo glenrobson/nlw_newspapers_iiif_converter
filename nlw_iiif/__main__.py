@@ -10,7 +10,7 @@ from .issue import parse_issue_page, build_manifest
 def main() -> None:
     parser = argparse.ArgumentParser(description="Build a IIIF Collection from an NLW newspaper title page.")
     parser.add_argument("pid", help="PID for the newspaper title page")
-    parser.add_argument("--base-id", default="https://example.org/iiif", help="Base URI for generated IIIF ids")
+    parser.add_argument("--base-id", default="https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers", help="Base URI for generated IIIF ids")
     parser.add_argument("--output", type=Path, default=Path("newspapers"), help="Directory to write JSON to")
     args = parser.parse_args()
 

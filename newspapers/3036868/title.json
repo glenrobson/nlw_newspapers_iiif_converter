@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "http://127.0.0.1:5500/output/3036868/title.json",
+  "id": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/title.json",
   "type": "Collection",
   "label": {
     "en": [
@@ -53,7 +53,7 @@
   "rights": "https://rightsstatements.org/vocab/UND/1.0/",
   "items": [
     {
-      "id": "http://127.0.0.1:5500/output/3036868/3036869.json",
+      "id": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3036869.json",
       "label": {
         "en": [
           "Saturday 19th June 1858"
@@ -63,7 +63,7 @@
       "navDate": "1858-06-19"
     },
     {
-      "id": "http://127.0.0.1:5500/output/3036868/3036872.json",
+      "id": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3036872.json",
       "label": {
         "en": [
           "Saturday 3rd July 1858"
@@ -73,7 +73,7 @@
       "navDate": "1858-07-03"
     },
     {
-      "id": "http://127.0.0.1:5500/output/3036868/3036877.json",
+      "id": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3036877.json",
       "label": {
         "en": [
           "Saturday 10th July 1858"
@@ -83,7 +83,7 @@
       "navDate": "1858-07-10"
     },
     {
-      "id": "http://127.0.0.1:5500/output/3036868/3036882.json",
+      "id": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3036882.json",
       "label": {
         "en": [
           "Saturday 17th July 1858"
@@ -93,7 +93,7 @@
       "navDate": "1858-07-17"
     },
     {
-      "id": "http://127.0.0.1:5500/output/3036868/3036887.json",
+      "id": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3036887.json",
       "label": {
         "en": [
           "Saturday 24th July 1858"
@@ -103,7 +103,7 @@
       "navDate": "1858-07-24"
     },
     {
-      "id": "http://127.0.0.1:5500/output/3036868/3036892.json",
+      "id": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3036892.json",
       "label": {
         "en": [
           "Saturday 31st July 1858"
@@ -113,7 +113,7 @@
       "navDate": "1858-07-31"
     },
     {
-      "id": "http://127.0.0.1:5500/output/3036868/3036895.json",
+      "id": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3036895.json",
       "label": {
         "en": [
           "Saturday 31st July 1858"
@@ -123,7 +123,7 @@
       "navDate": "1858-07-31"
     },
     {
-      "id": "http://127.0.0.1:5500/output/3036868/3036900.json",
+      "id": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3036900.json",
       "label": {
         "en": [
           "Saturday 7th August 1858"
@@ -133,7 +133,7 @@
       "navDate": "1858-08-07"
     },
     {
-      "id": "http://127.0.0.1:5500/output/3036868/3036905.json",
+      "id": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3036905.json",
       "label": {
         "en": [
           "Saturday 14th August 1858"
@@ -143,7 +143,7 @@
       "navDate": "1858-08-14"
     },
     {
-      "id": "http://127.0.0.1:5500/output/3036868/3036910.json",
+      "id": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3036910.json",
       "label": {
         "en": [
           "Saturday 21st August 1858"
@@ -153,7 +153,7 @@
       "navDate": "1858-08-21"
     },
     {
-      "id": "http://127.0.0.1:5500/output/3036868/3036915.json",
+      "id": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3036915.json",
       "label": {
         "en": [
           "Saturday 28th August 1858"
@@ -163,7 +163,7 @@
       "navDate": "1858-08-28"
     },
     {
-      "id": "http://127.0.0.1:5500/output/3036868/3036920.json",
+      "id": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3036920.json",
       "label": {
         "en": [
           "Saturday 4th September 1858"
@@ -173,7 +173,7 @@
       "navDate": "1858-09-04"
     },
     {
-      "id": "http://127.0.0.1:5500/output/3036868/3036924.json",
+      "id": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3036924.json",
       "label": {
         "en": [
           "Saturday 4th September 1858"
@@ -183,7 +183,7 @@
       "navDate": "1858-09-04"
     },
     {
-      "id": "http://127.0.0.1:5500/output/3036868/3036928.json",
+      "id": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3036928.json",
       "label": {
         "en": [
           "Saturday 11th September 1858"
@@ -193,7 +193,7 @@
       "navDate": "1858-09-11"
     },
     {
-      "id": "http://127.0.0.1:5500/output/3036868/3036933.json",
+      "id": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3036933.json",
       "label": {
         "en": [
           "Saturday 18th September 1858"
@@ -203,7 +203,7 @@
       "navDate": "1858-09-18"
     },
     {
-      "id": "http://127.0.0.1:5500/output/3036868/3036938.json",
+      "id": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3036938.json",
       "label": {
         "en": [
           "Saturday 25th September 1858"
@@ -213,7 +213,7 @@
       "navDate": "1858-09-25"
     },
     {
-      "id": "http://127.0.0.1:5500/output/3036868/3036943.json",
+      "id": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3036943.json",
       "label": {
         "en": [
           "Saturday 2nd October 1858"
@@ -223,7 +223,7 @@
       "navDate": "1858-10-02"
     },
     {
-      "id": "http://127.0.0.1:5500/output/3036868/3036948.json",
+      "id": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3036948.json",
       "label": {
         "en": [
           "Saturday 9th October 1858"
@@ -233,7 +233,7 @@
       "navDate": "1858-10-09"
     },
     {
-      "id": "http://127.0.0.1:5500/output/3036868/3036953.json",
+      "id": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3036953.json",
       "label": {
         "en": [
           "Saturday 16th October 1858"
@@ -243,7 +243,7 @@
       "navDate": "1858-10-16"
     },
     {
-      "id": "http://127.0.0.1:5500/output/3036868/3036958.json",
+      "id": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3036958.json",
       "label": {
         "en": [
           "Saturday 23rd October 1858"
