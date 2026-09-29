@@ -16,6 +16,7 @@ TITLE_HTML = (FIXTURES / "title.html").read_text(encoding="utf-8")
 def empty_cache(tmp_path, monkeypatch):
     """Point the cache at a temp dir so tests never read or write the real cache."""
     monkeypatch.setattr(fetch, "CACHE_DIR", tmp_path)
+    monkeypatch.setattr(fetch, "REQUEST_DELAY", 0)
 
 
 def mock_response(html: str) -> Mock:

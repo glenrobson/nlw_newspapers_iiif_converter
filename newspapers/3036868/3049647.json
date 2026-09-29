@@ -1,0 +1,219 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3049647.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "3rd May 1906"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Title"
+        ]
+      },
+      "value": {
+        "en": [
+          "The Aberystwith Observer"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Frequency"
+        ]
+      },
+      "value": {
+        "en": [
+          "Weekly"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Publisher"
+        ]
+      },
+      "value": {
+        "en": [
+          "Published in Aberystwyth by David Jenkins."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Issue dates"
+        ]
+      },
+      "value": {
+        "en": [
+          "1858 - 1910"
+        ]
+      }
+    }
+  ],
+  "rights": "https://rightsstatements.org/vocab/UND/1.0/",
+  "items": [
+    {
+      "id": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3049647/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 1"
+        ]
+      },
+      "height": 8976,
+      "width": 6850,
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3049647/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3049647/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.llyfrgell.cymru/iiif/03/049/03049648.jp2/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 8976,
+                "width": 6850,
+                "service": [
+                  {
+                    "@id": "https://iiif.llyfrgell.cymru/iiif/03/049/03049648.jp2",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level1.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3049647/canvas/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3049647/canvas/2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 2"
+        ]
+      },
+      "height": 8976,
+      "width": 6850,
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3049647/page/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3049647/annotation/2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.llyfrgell.cymru/iiif/03/049/03049649.jp2/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 8976,
+                "width": 6850,
+                "service": [
+                  {
+                    "@id": "https://iiif.llyfrgell.cymru/iiif/03/049/03049649.jp2",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level1.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3049647/canvas/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3049647/canvas/3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 3"
+        ]
+      },
+      "height": 8976,
+      "width": 6850,
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3049647/page/3",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3049647/annotation/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.llyfrgell.cymru/iiif/03/049/03049650.jp2/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 8976,
+                "width": 6850,
+                "service": [
+                  {
+                    "@id": "https://iiif.llyfrgell.cymru/iiif/03/049/03049650.jp2",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level1.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3049647/canvas/3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3049647/canvas/4",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Page 4"
+        ]
+      },
+      "height": 8976,
+      "width": 6850,
+      "items": [
+        {
+          "id": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3049647/page/4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3049647/annotation/4",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.llyfrgell.cymru/iiif/03/049/03049651.jp2/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 8976,
+                "width": 6850,
+                "service": [
+                  {
+                    "@id": "https://iiif.llyfrgell.cymru/iiif/03/049/03049651.jp2",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level1.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://glenrobson.github.io/nlw_newspapers_iiif_converter/newspapers/3036868/3049647/canvas/4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

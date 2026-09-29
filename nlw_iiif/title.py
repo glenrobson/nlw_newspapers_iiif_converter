@@ -1,5 +1,6 @@
 import re
 from datetime import date, datetime
+from urllib.parse import parse_qs, urlparse
 
 from bs4 import BeautifulSoup
 from iiif_prezi3 import Collection, config, KeyValueString, ManifestRef
@@ -41,6 +42,18 @@ def parse_pub_details(soup: BeautifulSoup) -> dict:
         )
         details[label] = value
     return details
+
+def parse_last_page(soup: BeautifulSoup) -> int:
+    """Read the "Last page" pagination link, e.g. .../list?page=129 -> 129.
+
+    Returns 1 if there's no pagination (all issues fit on one page).
+    """
+    link = soup.select_one('a.page-link[aria-label="Last page"][href]')
+    if not link:
+        return 1
+    page = parse_qs(urlparse(link["href"]).query).get("page", ["1"])[0]
+    return int(page)
+
 
 def parse_issues(soup: BeautifulSoup) -> list:
     """Read the issues getting the date and the PID for each issue"""

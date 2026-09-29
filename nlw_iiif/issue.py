@@ -2,6 +2,9 @@ from bs4 import BeautifulSoup
 from iiif_prezi3 import Manifest,KeyValueString
 from datetime import date, datetime
 import re
+import time
+
+REQUEST_DELAY = 0.5
 
 def parse_issue_page(soup: BeautifulSoup) -> dict:
     """Extract issue metadata and its page images.
@@ -62,5 +65,6 @@ def build_manifest(manifest_id: str, title: dict, issue: dict) -> Manifest:
                                         label=page.get("label", f"Page {i}"),
                                         anno_id=f"{base_url}/annotation/{i}",
                                         anno_page_id=f"{base_url}/page/{i}")
+        time.sleep(REQUEST_DELAY)
        
     return manifest
