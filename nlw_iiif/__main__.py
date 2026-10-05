@@ -16,6 +16,7 @@ def main() -> None:
 
     soup = get_soup(f"https://newspapers.library.wales/browse/{args.pid}")
     title = parse_title_page(soup)
+    title["pid"] = args.pid
     collection = build_collection(f"{args.base_id}/{args.pid}/title.json", title)
 
     soup = get_soup(f"https://newspapers.library.wales/browse/{args.pid}/list")
@@ -40,7 +41,6 @@ def main() -> None:
             soup = get_soup(f"https://newspapers.library.wales/view/{issue["pid"]}")
             issue_data = parse_issue_page(soup)
 
-            
             manifest = build_manifest(f"{args.base_id}/{args.pid}/{issue["pid"]}.json", title, issue_data)
 
             out_file.parent.mkdir(parents=True, exist_ok=True)

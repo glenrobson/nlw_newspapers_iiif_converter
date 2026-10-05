@@ -3,7 +3,7 @@ from datetime import date, datetime
 from urllib.parse import parse_qs, urlparse
 
 from bs4 import BeautifulSoup
-from iiif_prezi3 import Collection, config, KeyValueString, ManifestRef
+from iiif_prezi3 import Collection, config, KeyValueString, ManifestRef, Homepage
 
 config.configs["helpers.auto_fields.AutoLang"].auto_lang = "en"
 
@@ -80,6 +80,14 @@ def parse_issue_date(text: str) -> date:
 def build_collection(collection_id: str, title: dict) -> Collection:
     """Create a IIIF Collection for a newspaper title."""
     collection = Collection(id=collection_id, label=title["label"], summary=title["summary"])
+
+    collection.homepage = Homepage(
+        id=f"https://newspapers.library.wales/browse/{title["pid"]}",
+        type="Text",
+        label={"en": ["NLW webpage for this title"]},
+        format="text/html",
+        language="en",
+    )
 
     collection.metadata = [
         KeyValueString(label="Frequency", value=title["frequency"]),

@@ -215,5 +215,20 @@
         }
       ]
     }
+  ],
+  "homepage": [
+    {
+      "id": "https://newspapers.library.wales/view/3038187",
+      "type": "Text",
+      "label": {
+        "en": [
+          "NLW webpage for this issue"
+        ]
+      },
+      "format": "text/html",
+      "language": [
+        "en"
+      ]
+    }
   ]
 }

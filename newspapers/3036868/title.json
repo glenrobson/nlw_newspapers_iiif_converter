@@ -25752,5 +25752,20 @@
       "type": "Manifest",
       "navDate": "1910-12-29"
     }
+  ],
+  "homepage": [
+    {
+      "id": "https://newspapers.library.wales/browse/3036868",
+      "type": "Text",
+      "label": {
+        "en": [
+          "NLW webpage for this title"
+        ]
+      },
+      "format": "text/html",
+      "language": [
+        "en"
+      ]
+    }
   ]
 }

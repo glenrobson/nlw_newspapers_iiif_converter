@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-from iiif_prezi3 import Manifest,KeyValueString
+from iiif_prezi3 import Manifest,KeyValueString, Homepage
 from datetime import date, datetime
 import re
 import time
@@ -43,6 +43,13 @@ def build_manifest(manifest_id: str, title: dict, issue: dict) -> Manifest:
     """Create a IIIF Manifest for a single newspaper issue."""
     manifest = Manifest(id=manifest_id, label=issue["label"])
 
+    manifest.homepage = Homepage(
+        id=f"https://newspapers.library.wales/view/{issue["pid"]}",
+        type="Text",
+        label={"en": ["NLW webpage for this issue"]},
+        format="text/html",
+        language="en",
+    )
     manifest.metadata = [
         KeyValueString(label="Title", value=title["label"]),
         KeyValueString(label="Frequency", value=title["frequency"]),

@@ -527,5 +527,20 @@
         }
       ]
     }
+  ],
+  "homepage": [
+    {
+      "id": "https://newspapers.library.wales/view/3044197",
+      "type": "Text",
+      "label": {
+        "en": [
+          "NLW webpage for this issue"
+        ]
+      },
+      "format": "text/html",
+      "language": [
+        "en"
+      ]
+    }
   ]
 }
